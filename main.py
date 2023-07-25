@@ -23,7 +23,7 @@ def crawl(url):
             if target_url in founded_link and founded_link not in foundLinks:
                 foundLinks.append(founded_link)
                 print(founded_link)
-                # recorsive
+                # recursive
                 crawl(founded_link)
 
 
